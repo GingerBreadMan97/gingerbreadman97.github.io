@@ -1,0 +1,52 @@
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open > .dropdown-toggle.btn-default.focus, .open > .dropdown-toggle.btn-default:focus, .open > .dropdown-toggle.btn-default:hover {
+  color:#333;
+  background-color:#f02275;
+  border-color:#f02275;
+}
+
+.btn-default {
+  text-shadow:0 1px 0 rgba(255,255,255,0);
+  background-image:-webkit-linear-gradient(top,#fff 0,#e0e0e0 100%);
+  background-image:-o-linear-gradient(top,#fff 0,#e0e0e0 100%);
+  background-image:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#e0e0e0));
+  background-image:linear-gradient(to bottom,#fff 0,#e0e0e0 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0);
+  filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  background-repeat:repeat-x;
+  border-color:#dbdbdb;
+  border-color:#ccc;
+}
+
+@media (max-width:991px) {
+  .col-md-12.col-xs-offset-0 {
+    height:20vh;
+  }
+}
+
+.col-md-12.col-xs-offset-0 {
+  height:35vh;
+}
+
+@media (max-width:991px) {
+  .col-md-12.col-xs-offset-0 {
+    height:13vh;
+  }
+}
+
+#butons {
+  margin-top:50px;
+}
+
+@media (max-width:991px) {
+  #butons {
+    margin-top:0px;
+  }
+}
+
+@media (max-width:991px) {
+  #Line {
+    padding-top:100px;
+    padding-bottom:50px;
+  }
+}
+

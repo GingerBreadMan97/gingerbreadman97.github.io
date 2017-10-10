@@ -1,0 +1,26 @@
+hr {
+  margin-left:20px;
+  margin-right:20px;
+  border-bottom:2px solid #fcf9f5;
+  box-shadow:0 30px 98px 0px #333;
+  border-top:none;
+}
+
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
